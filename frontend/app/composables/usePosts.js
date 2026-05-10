@@ -6,6 +6,7 @@ export const usePosts = () => {
     const query = new URLSearchParams()
 
     // Always populate category relation
+    //CComment #1
     query.append('populate', 'category')
 
     if (params.categoryId) {
